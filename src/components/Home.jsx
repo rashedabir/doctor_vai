@@ -8,7 +8,7 @@ function Home() {
       <div className="row flex-column-reverse flex-lg-row align-items-center">
         <div className="col-lg-6">
           <div className="py-3">
-            <h2>You New Smile Starts Here</h2>
+            <h2>Your New Smile Starts Here</h2>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text

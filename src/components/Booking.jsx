@@ -24,10 +24,10 @@ function Booking() {
       <ToastContainer />
       <h3 className="mb-3"> {data.heading} </h3>
       <form onSubmit={handleSubmit}>
-        <div class="form-floating mb-3">
+        <div className="form-floating mb-3">
           <input
             type="text"
-            class="form-control"
+            className="form-control"
             id="floatingInput"
             placeholder="Name"
             required
@@ -37,10 +37,10 @@ function Booking() {
           />
           <label for="floatingInput">Name</label>
         </div>
-        <div class="form-floating mb-3">
+        <div className="form-floating mb-3">
           <input
             type="text"
-            class="form-control"
+            className="form-control"
             id="floatingInput"
             required
             placeholder="Number"
@@ -50,10 +50,10 @@ function Booking() {
           />
           <label for="floatingInput">Number</label>
         </div>
-        <div class="form-floating mb-3">
+        <div className="form-floating mb-3">
           <input
             type="email"
-            class="form-control"
+            className="form-control"
             required
             id="floatingInput"
             placeholder="Email"
@@ -63,10 +63,10 @@ function Booking() {
           />
           <label for="floatingInput">Email</label>
         </div>
-        <div class="form-floating mb-3">
+        <div className="form-floating mb-3">
           <input
             type="text"
-            class="form-control"
+            className="form-control"
             id="floatingInput"
             placeholder="Appoinment Date"
             value={fullDate}

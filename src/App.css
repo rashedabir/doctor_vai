@@ -63,3 +63,14 @@ footer a{
   text-transform: uppercase;
   letter-spacing: 1.5px;
 }
+
+/*-------------------------contact------------------------*/
+
+.card-body i{
+  font-size: 30px;
+  color: crimson;
+}
+.contact form button{
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
